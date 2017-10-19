@@ -1,4 +1,4 @@
-//David Samuel, dms4gt, wordPuzzle.cpp
+//David Samuel, dms4gt, wordPuzzle.cpp Travis 
 //runtime is n^4 because of the 4 nested for loops
 #include "hashTable.h"
 #include "timer.h"
