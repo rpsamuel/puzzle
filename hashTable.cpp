@@ -12,7 +12,7 @@ hashTable::hashTable(int size){
     hashtable->resize(nSize);
     hashSize=nSize;
   }
-  cout << "Hash SIZE: " << hashSize;  
+  cout << "Hash SIZE: " << hashSize << "\n";  
   
   for(int i=0; i<hashSize; i++){
     list<string> p;
