@@ -22,6 +22,7 @@ char* getWordInGrid (int startRow, int startCol, int dir, int len,
 
 int main(int argc, char ** argv){
   string diction = argv[1];
+	cout << " Diction is " << diction ;
   ifstream file(diction.c_str());
   string t;
   int sizeOf=0;
