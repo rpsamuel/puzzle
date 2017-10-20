@@ -26,4 +26,4 @@ install:
 
 script:
       - make 
-script: ./a.out word2.txt grid.txt
+      - ./a.out word2.txt grid.txt
