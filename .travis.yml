@@ -26,4 +26,4 @@ install:
 
 script:
       - make 
-      - ./a.out word2.txt 300x300.txt
+script: ./a.out word2.txt 300x300.grid.txt
