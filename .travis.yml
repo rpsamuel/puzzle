@@ -24,3 +24,5 @@ install:
 script:
       - make 
       - ./a.out word2.txt grid.txt
+      - ls -l *.txt
+      - cat 300x300.words2.out.txt
