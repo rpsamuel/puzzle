@@ -23,6 +23,6 @@ install:
 
 script:
       - make 
-      - ./a.out word2.txt grid.txt
+      - ./a.out word2.txt 300x300.grid.txt
       - ls -l *.txt
       - cat 300x300.words2.out.txt
