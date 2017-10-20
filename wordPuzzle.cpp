@@ -22,14 +22,14 @@ char* getWordInGrid (int startRow, int startCol, int dir, int len,
 
 int main(int argc, char ** argv){
   string diction = argv[1];
-	cout << " Diction is " << diction ;
+	
   ifstream file(diction.c_str());
   string t;
   int sizeOf=0;
   while(getline(file,t)){
     sizeOf++;
   }
-
+ cout<<"SizeOF is:" << sizeOf;
   hashTable *wordpuz= new hashTable((sizeOf));
   file.close();
   file.open(diction.c_str());
