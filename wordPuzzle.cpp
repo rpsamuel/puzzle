@@ -33,9 +33,10 @@ int main(int argc, char ** argv){
   file.close();
   file.open(diction.c_str());
   while(getline(file,t)){
-    if(t.length()>2){
+   cout << " T is " << t ;
+	  if(t.length()>2){
       wordpuz->insert(t); //error is occuring here, wrong address. Can't find issue. 
-	    cout << " T is " << t ;
+	    
     }}
 	
   file.close();
