@@ -29,12 +29,12 @@ int main(int argc, char ** argv){
   while(getline(file,t)){
     sizeOf++;
   }
-  cout << "inMain:SizeOf:  " << sizeOf ;   //rps
+
   hashTable *wordpuz= new hashTable((sizeOf));
   file.close();
   file.open(diction.c_str());
   while(getline(file,t)){
-   cout << " T is " << t ;
+   
 	  if(t.length()>2){
       wordpuz->insert(t); //error is occuring here, wrong address. Can't find issue. 
 	    
@@ -82,7 +82,7 @@ int main(int argc, char ** argv){
 	    else if(d==7){
 	      k="NW (";
 	    }
-//	     cout<< k<<r<<", "<< c<< "):\t"<<word<< endl;
+     cout<< k<<r<<", "<< c<< "):\t"<<word<< endl;
 	  }
 	}
       }
