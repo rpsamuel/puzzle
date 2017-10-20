@@ -81,7 +81,7 @@ int main(int argc, char ** argv){
 	    else if(d==7){
 	      k="NW (";
 	    }
-	     cout<< k<<r<<", "<< c<< "):\t"<<word<< endl;
+//	     cout<< k<<r<<", "<< c<< "):\t"<<word<< endl;
 	  }
 	}
       }
