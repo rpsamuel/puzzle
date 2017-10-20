@@ -28,7 +28,7 @@ int main(int argc, char ** argv){
   while(getline(file,t)){
     sizeOf++;
   }
-  cout << "inMain:SizeOf:  " + sizeOf <<ENDL;   //rps
+  cout << "inMain:SizeOf:  " << sizeOf ;   //rps
   hashTable *wordpuz= new hashTable((sizeOf));
   file.close();
   file.open(diction.c_str());
