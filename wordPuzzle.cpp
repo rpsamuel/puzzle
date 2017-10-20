@@ -35,7 +35,9 @@ int main(int argc, char ** argv){
   while(getline(file,t)){
     if(t.length()>2){
       wordpuz->insert(t); //error is occuring here, wrong address. Can't find issue. 
+	    cout << " T is " << t <<;
     }}
+	
   file.close();
 
   string words = argv[2];
@@ -52,7 +54,6 @@ int main(int argc, char ** argv){
       for(int d=0; d<8; d++){
 	for(int l= 3; l<23; l++){
 	  string word(getWordInGrid(r,c,d,l,rows,cols));
-		cout << "WORD FOUND : " << word  << "\n";
 	  if(l>word.length()){
 	    break;}
 	  if(wordpuz->contains(word)){
