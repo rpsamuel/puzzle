@@ -27,9 +27,10 @@ int main(int argc, char ** argv){
   string t;
   int sizeOf=0;
   while(getline(file,t)){
-    sizeOf++;
+    sizeOf++; 
+	   cout<<"SizeOF is:" << sizeOf<< "\n";
   }
- cout<<"SizeOF is:" << sizeOf;
+ cout<<"SizeOF end :" << sizeOf<< "\n";
   hashTable *wordpuz= new hashTable((sizeOf));
   file.close();
   file.open(diction.c_str());
